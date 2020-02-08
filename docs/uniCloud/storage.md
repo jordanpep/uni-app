@@ -59,8 +59,7 @@ uni.chooseImage({
 
 			// callback
 			uniClient.uploadFile({
-				filePath: filePath
-				},
+				filePath: filePath,
 				success() {},
 				fail() {},
 				complete() {}
